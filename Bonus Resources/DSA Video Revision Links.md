@@ -1,13 +1,4 @@
 
-[Computer Fundamentals](https://drive.google.com/file/d/1CnLP17W5JuZn4ZDXyT93HRqCa6-Y35pd/view?usp=sharing)
-
-[SQL Notes](https://drive.google.com/file/d/1HslEa1l5GPjmvC1JcM83uF_stnTGRUqi/view?usp=sharing)
-
-[LLD Questions](https://drive.google.com/file/d/1Q3G7DBZ-Spr11Q_pX_IOydKldnpl3Ja8/view?usp=sharing)
-
-[LLD Design Patterns](https://drive.google.com/file/d/1RQXFWsY3fYwZxQAyQrDOCOQZgFxYGINU/view?usp=sharing)
-
-## DSA Video Revision Links
 1. [Arrays](https://drive.google.com/drive/folders/1Qf1LOVfrUSFSqmLjBU70jV7k0uDCwG4W?usp=drive_link)
 2. [Bit Manipulation](https://drive.google.com/drive/folders/1FJnjZ6OT1t-arG9f7suHTnsNUNt18d6R?usp=drive_link)
 3. [Sorting](https://drive.google.com/drive/folders/142eUn2KPW5bn97Fkp9Ncb_LMUlvz6EbU?usp=drive_link)

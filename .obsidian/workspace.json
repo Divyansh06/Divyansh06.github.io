@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "82400b7c394c1c6c",
+        "id": "46af39429f6891c8",
         "type": "tabs",
         "children": [
           {
-            "id": "d3d4cc214b77f1a4",
+            "id": "9a9651d38d191ab1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -138,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3d4cc214b77f1a4",
+  "active": "9a9651d38d191ab1",
   "lastOpenFiles": [
+    "Bonus Resources/Practice Questions List.md",
+    "Bonus Resources/All Resources Download Links.md",
+    "Bonus Resources/DSA Video Revision Links.md",
+    "Bonus Resources/15 Days Preparation.md",
+    "Bonus Resources/7 Days Preparation.md",
     "All Resources Download Links.md",
     "README.md",
     "Resources Download Links.md",
@@ -164,11 +177,6 @@
     "LLD/Practice questions/07-design-splitwise.md",
     "LLD/Practice questions/06-design-book-my-show.md",
     "LLD/Practice questions/05-design-a-cache-hw.pdf",
-    "LLD/Practice questions/04-design-a-parking-lot-answers.md",
-    "LLD/Practice questions/03-design-snakes-ladders-in-class.md",
-    "LLD/Practice questions/02-design-tic-tac-toe-in-class.md",
-    "LLD/Practice questions/01-design-a-pen.md",
-    "LLD/Practice questions/00-uml-diagrams.md",
     "LLD/Practice questions",
     "LLD/Patterns/Patterns Practice problems",
     "LLD/LLD Practice questions/05-design-a-cache-hw.pdf",
