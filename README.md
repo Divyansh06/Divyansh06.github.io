@@ -15,16 +15,14 @@ This repository contains the following Markdown files:
 
 ***Patterns***
 
-- [01-solid-01.md](https://divyansh06.github.io/LLD/Patterns/01-solid-01.html)
-- [02-solid-02.md](https://divyansh06.github.io/LLD/Patterns/02-solid-02.html)
-- [03-singleton-builder.md](https://divyansh06.github.io/LLD/Patterns/03-singleton-builder.html)
-- [04-prototype-factory.md](https://divyansh06.github.io/LLD/Patterns/04-prototype-factory.html)
-- [05-factory.md](https://divyansh06.github.io/LLD/Patterns/05-factory.html)
-- [06-abstract-factory-adapter.md](https://divyansh06.github.io/LLD/Patterns/06-abstract-factory-adapter.html)
-- [07-facade-observer.md](https://divyansh06.github.io/LLD/Patterns/07-facade-observer.html)
-- [08-adapter-flyweight.md](https://divyansh06.github.io/LLD/Patterns/08-adapter-flyweight.html)
-- [09-decorator-facade.md](https://divyansh06.github.io/LLD/Patterns/09-decorator-facade.html)
-- [10-observer-strategy.md](https://divyansh06.github.io/LLD/Patterns/10-observer-strategy.html)
+- [01-singleton-builder.md](https://divyansh06.github.io/LLD/Patterns/01-singleton-builder.html)
+- [02-prototype-factory.md](https://divyansh06.github.io/LLD/Patterns/02-prototype-factory.html)
+- [03-factory.md](https://divyansh06.github.io/LLD/Patterns/03-factory.html)
+- [04-abstract-factory-adapter.md](https://divyansh06.github.io/LLD/Patterns/04-abstract-factory-adapter.html)
+- [05-facade-observer.md](https://divyansh06.github.io/LLD/Patterns/05-facade-observer.html)
+- [06-adapter-flyweight.md](https://divyansh06.github.io/LLD/Patterns/06-adapter-flyweight.html)
+- [07-decorator-facade.md](https://divyansh06.github.io/LLD/Patterns/07-decorator-facade.html)
+- [08-observer-strategy.md](https://divyansh06.github.io/LLD/Patterns/08-observer-strategy.html)
 
 ***Patterns Practice problems***
 
@@ -39,6 +37,7 @@ This repository contains the following Markdown files:
 - [02-design-tic-tac-toe-in-class.md](https://divyansh06.github.io/LLD/Practice%20questions%20LLD/02-design-tic-tac-toe-in-class.html)
 - [03-design-snakes-ladders-in-class.md](https://divyansh06.github.io/LLD/Practice%20questions%20LLD/03-design-snakes-ladders-in-class.html)
 - [04-design-a-parking-lot-answers.md](https://divyansh06.github.io/LLD/Practice%20questions%20LLD/04-design-a-parking-lot-answers.html)
+- [05-design-a-cache-hw.pdf](https://divyansh06.github.io/LLD/Practice%20questions%20LLD/05-design-a-cache-hw.pdf)
 - [06-design-book-my-show.md](https://divyansh06.github.io/LLD/Practice%20questions%20LLD/06-design-book-my-show.html)
 - [07-design-splitwise.md](https://divyansh06.github.io/LLD/Practice%20questions%20LLD/07-design-splitwise.html)
 

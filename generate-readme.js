@@ -12,9 +12,10 @@ function getAllMarkdownFiles(dirPath, arrayOfFiles) {
     arrayOfFiles = arrayOfFiles || [];
     let prevFolder = '';
     files.forEach((file) => {
+        const supportedFiles = new Set(['.md', '.pdf', '.html'])
         if (fs.statSync(dirPath + '/' + file).isDirectory()) {
             arrayOfFiles = getAllMarkdownFiles(dirPath + '/' + file, arrayOfFiles);
-        } else if (path.extname(file) === '.md' && file !== 'README.md') {
+        } else if (supportedFiles.has(path.extname(file)) && file !== 'README.md') {
             if (path.basename(dirPath) !== prevFolder) {
                 prevFolder = path.basename(dirPath);
                 arrayOfFiles.push(`${SPACE}/${prevFolder}`);

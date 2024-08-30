@@ -11,12 +11,8 @@
             "id": "83cabb9e1a7840a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,9 +140,17 @@
   },
   "active": "83cabb9e1a7840a3",
   "lastOpenFiles": [
+    "LLD/Patterns/08-observer-strategy.md",
+    "LLD/Patterns/07-decorator-facade.md",
+    "LLD/Patterns/06-adapter-flyweight.md",
+    "LLD/Patterns/05-facade-observer.md",
+    "LLD/Patterns/04-abstract-factory-adapter.md",
+    "LLD/Patterns/03-factory.md",
+    "LLD/Patterns/02-prototype-factory.md",
+    "LLD/Patterns/01-singleton-builder.md",
+    "README.md",
     "_Resources Download Links.md",
     "Resources Download Links.md",
-    "README.md",
     "LLD/Practice questions LLD/07-design-splitwise.md",
     "LLD/Practice questions LLD/06-design-book-my-show.md",
     "LLD/Practice questions LLD/05-design-a-cache-hw.pdf",
@@ -170,16 +170,8 @@
     "LLD/Practice questions/00-uml-diagrams.md",
     "LLD/Practice questions",
     "LLD/Patterns/Patterns Practice problems/README.md",
-    "LLD/Patterns/Patterns Practice problems/03-design-restaurant-mgmt-worksheet.md",
-    "LLD/Patterns/Patterns Practice problems/02-design-chess-worksheet.md",
-    "LLD/Patterns/Patterns Practice problems/01-design-atm-worksheet.md",
     "LLD/Patterns/Patterns Practice problems",
-    "LLD/LLD Practice questions/07-design-splitwise.md",
-    "LLD/LLD Practice questions/06-design-book-my-show.md",
     "LLD/LLD Practice questions/05-design-a-cache-hw.pdf",
-    "LLD/LLD Practice questions/04-design-a-parking-lot-answers.md",
-    "LLD/LLD Practice questions/03-design-snakes-ladders-in-class.md",
-    "LLD/LLD Practice questions/02-design-tic-tac-toe-in-class.md",
     "LLD/LLD Practice questions",
     "LLD/Patterns/Patterns Practice Problems",
     "LLD/Patterns/practice-problems",
