@@ -4,61 +4,42 @@ const path = require('path');
 const directoryPath = path.join(__dirname, '.');
 const outputFilePath = path.join(__dirname, 'README.md');
 const baseUrl = 'https://divyansh06.github.io/'; // Base URL for GitHub Pages
+const SPACE = '__dir__';
 
-function getAllMarkdownFiles(dirPath, arrayOfFiles, folderDepth = 0) {
+function getAllMarkdownFiles(dirPath, arrayOfFiles) {
     const files = fs.readdirSync(dirPath);
 
     arrayOfFiles = arrayOfFiles || [];
-
-    let containsMarkdown = false;
-    const subdirFiles = [];
-
+    let prevFolder = '';
     files.forEach((file) => {
-        const fullPath = path.join(dirPath, file);
-        if (fs.statSync(fullPath).isDirectory()) {
-            const nestedFiles = getAllMarkdownFiles(fullPath, [], folderDepth + 1);
-            if (nestedFiles.length > 0) {
-                subdirFiles.push({ name: file, path: fullPath, depth: folderDepth, isDir: true });
-                subdirFiles.push(...nestedFiles);
-                containsMarkdown = true;
-            }
+        if (fs.statSync(dirPath + '/' + file).isDirectory()) {
+            arrayOfFiles = getAllMarkdownFiles(dirPath + '/' + file, arrayOfFiles);
         } else if (path.extname(file) === '.md' && file !== 'README.md') {
-            subdirFiles.push({ name: file, path: fullPath, depth: folderDepth, isDir: false });
-            containsMarkdown = true;
+            if (path.basename(dirPath) !== prevFolder) {
+                prevFolder = path.basename(dirPath);
+                arrayOfFiles.push(`${SPACE}/${prevFolder}`);
+            }
+            arrayOfFiles.push(path.join(dirPath, '/', file));
         }
     });
-
-    if (containsMarkdown) {
-        arrayOfFiles.push(...subdirFiles);
-    }
 
     return arrayOfFiles;
 }
 
 function generateReadmeContent(files) {
-    let previousDepth = 0;
     const fileLinks = files.map(file => {
-        let output = '';
-
-        if (file.depth > previousDepth) {
-            output += '\n';
-        }
-
-        const indent = '\t'.repeat(file.depth);
-        if (file.isDir) {
-            output += `${indent}**${file.name}**\n`;
+        if (file.includes(SPACE)) {
+            const dir = file.split('/')[1];
+            return `***${dir}***`
         } else {
-            const relativePath = path.relative(directoryPath, file.path).replace(/\\/g, '/');
+            const relativePath = path.relative(directoryPath, file).replace(/\\/g, '/');
             let fileUrl = `${baseUrl}${relativePath}`;
             fileUrl = new URL(fileUrl).toString().replace('.md', '.html');
-            output += `${indent}- [${file.name}](${fileUrl})\n`;
+            return `- [${relativePath}](${fileUrl})`;
         }
+    }).join('\n');
 
-        previousDepth = file.depth;
-        return output;
-    }).join('');
-
-    return `# Documentation Index\n\nThis repository contains the following Markdown files and directories:\n\n${fileLinks}\n## How to Use This Repository\n\nEach file contains documentation or notes related to specific parts of the project. Click on the links above to navigate to the respective files.\n\n## Contribution Guidelines\n\nFeel free to contribute to the documentation by adding or updating the Markdown files. Make sure to follow the repository's contribution guidelines.\n\n---\n\n*Generated on: ${new Date().toLocaleDateString()}*`;
+    return `# Documentation Index\n\nThis repository contains the following Markdown files:\n\n## List of Files\n${fileLinks}\n\n## How to Use This Repository\n\nEach file contains documentation or notes related to specific parts of the project. Click on the links above to navigate to the respective files.\n\n## Contribution Guidelines\n\nFeel free to contribute to the documentation by adding or updating the Markdown files. Make sure to follow the repository's contribution guidelines.\n\n---\n\n*Generated on: ${new Date().toLocaleDateString()}*`;
 }
 
 function generateReadme() {
