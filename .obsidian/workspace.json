@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02bbcd3f9c140967",
+        "id": "82400b7c394c1c6c",
         "type": "tabs",
         "children": [
           {
-            "id": "83cabb9e1a7840a3",
+            "id": "d3d4cc214b77f1a4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,9 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83cabb9e1a7840a3",
+  "active": "d3d4cc214b77f1a4",
   "lastOpenFiles": [
     "All Resources Download Links.md",
+    "README.md",
     "Resources Download Links.md",
     "LLD/Patterns/08-observer-strategy.md",
     "LLD/Patterns/07-decorator-facade.md",
@@ -150,7 +151,6 @@
     "LLD/Patterns/03-factory.md",
     "LLD/Patterns/02-prototype-factory.md",
     "LLD/Patterns/01-singleton-builder.md",
-    "README.md",
     "_Resources Download Links.md",
     "LLD/Practice questions LLD/07-design-splitwise.md",
     "LLD/Practice questions LLD/06-design-book-my-show.md",

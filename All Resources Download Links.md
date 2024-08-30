@@ -7,6 +7,17 @@
 
 [LLD Design Patterns](https://drive.google.com/file/d/1RQXFWsY3fYwZxQAyQrDOCOQZgFxYGINU/view?usp=sharing)
 
-[DSA Revision](https://drive.google.com/file/d/1scmbiEJDw4WhGq5ghF4j_es3W49reVmq/view?usp=sharing)
-
-## Happy Learning!
+## DSA Video Revision Links
+1. [Arrays](https://drive.google.com/drive/folders/1Qf1LOVfrUSFSqmLjBU70jV7k0uDCwG4W?usp=drive_link)
+2. [Bit Manipulation](https://drive.google.com/drive/folders/1FJnjZ6OT1t-arG9f7suHTnsNUNt18d6R?usp=drive_link)
+3. [Sorting](https://drive.google.com/drive/folders/142eUn2KPW5bn97Fkp9Ncb_LMUlvz6EbU?usp=drive_link)
+4. [Searching](https://drive.google.com/drive/folders/1ROsCeSE1oJrEMErw9LRvGJbtV5LQYwDA?usp=drive_link)
+5. [Stacks](https://drive.google.com/drive/folders/1rhWIfgo_7sIiKaf4iTST0uQM_1InML0D?usp=drive_link)
+6. [Two Pointer](https://drive.google.com/drive/folders/1bMYIQ_LC5-x8GJZmpEfo9dlxsuX5Dk57?usp=drive_link)
+7. [HashMap](https://drive.google.com/drive/folders/1I_hcCs29Ni6jBFjFGhWZiSvuX7tGh8Dd?usp=drive_link)
+8. [Trees](https://drive.google.com/drive/folders/1VAmys4WFh9YLfX6mtEt6ySW_zCh_jty4?usp=drive_link)
+9. [LinkedList](https://drive.google.com/drive/folders/1nZVttYoOnoXNQIjCKzOtNtk-vl9QJNH0?usp=drive_link)
+10. [Dynamic programming](https://drive.google.com/drive/folders/11H116pYfmmWETdKPMezCfdFnNOyiVPVK?usp=drive_link)
+11. [Graph](https://drive.google.com/drive/folders/1695a5uDhAvLd2MqU-ghfqFkm0txhZybS?usp=drive_link)
+12. [Heaps](https://drive.google.com/drive/folders/10emAB3eMq4Ifu_Cuq9BT1ehv6fXcPsXw?usp=drive_link)
+13. [Recursion](https://drive.google.com/drive/folders/1Mc76n3O15BH6YRUYgG0RNSpEDK5YqPqN?usp=drive_link)
