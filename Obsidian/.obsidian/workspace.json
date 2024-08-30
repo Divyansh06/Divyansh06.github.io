@@ -4,32 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "461511d53b5f4290",
+        "id": "b2100f296d732cd4",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3255b9b2968f18",
+            "id": "27595b3c98c35092",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8bae1886dc815940",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cdbae3fe76b3f1bb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Welcome.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b3255b9b2968f18",
+  "active": "27595b3c98c35092",
   "lastOpenFiles": [
+    "LLD/Patterns/practice-problems/01-design-atm-worksheet.md",
     "Welcome.md"
   ]
 }
