@@ -35,7 +35,8 @@ function generateReadmeContent(files) {
             const relativePath = path.relative(directoryPath, file).replace(/\\/g, '/');
             let fileUrl = `${baseUrl}${relativePath}`;
             fileUrl = new URL(fileUrl).toString().replace('.md', '.html');
-            return `- [${relativePath}](${fileUrl})`;
+            const fileName = relativePath.split('/').pop();
+            return `- [${fileName}](${fileUrl})`;
         }
     }).join('\n');
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d770b7bdf1663394",
+        "id": "02bbcd3f9c140967",
         "type": "tabs",
         "children": [
           {
-            "id": "75129e6edbb3c939",
+            "id": "83cabb9e1a7840a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75129e6edbb3c939",
+  "active": "83cabb9e1a7840a3",
   "lastOpenFiles": [
+    "_Resources Download Links.md",
+    "Resources Download Links.md",
+    "README.md",
     "LLD/Practice questions LLD/07-design-splitwise.md",
     "LLD/Practice questions LLD/06-design-book-my-show.md",
     "LLD/Practice questions LLD/05-design-a-cache-hw.pdf",
@@ -177,10 +180,7 @@
     "LLD/LLD Practice questions/04-design-a-parking-lot-answers.md",
     "LLD/LLD Practice questions/03-design-snakes-ladders-in-class.md",
     "LLD/LLD Practice questions/02-design-tic-tac-toe-in-class.md",
-    "LLD/LLD Practice questions/01-design-a-pen.md",
-    "LLD/LLD Practice questions/00-uml-diagrams.md",
     "LLD/LLD Practice questions",
-    "LLD/Patterns/Patterns Practice Problems/README.md",
     "LLD/Patterns/Patterns Practice Problems",
     "LLD/Patterns/practice-problems",
     "LLD/Patterns"
