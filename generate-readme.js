@@ -3,7 +3,7 @@ const path = require('path');
 
 const directoryPath = path.join(__dirname, '.');
 const outputFilePath = path.join(__dirname, 'README.md');
-const baseUrl = 'https://divyansh-sharma-mindtickle.github.io/'; // Base URL for GitHub Pages
+const baseUrl = 'https://divyansh06.github.io/'; // Base URL for GitHub Pages
 
 function getAllMarkdownFiles(dirPath, arrayOfFiles) {
     const files = fs.readdirSync(dirPath);
