@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "fbf971fc4c750282",
+    "id": "94f3883c3d41a8da",
     "type": "split",
     "children": [
       {
-        "id": "b2100f296d732cd4",
+        "id": "d770b7bdf1663394",
         "type": "tabs",
         "children": [
           {
-            "id": "27595b3c98c35092",
+            "id": "75129e6edbb3c939",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d91d439f2db94e5d",
+    "id": "3d8f6f0b9ef12043",
     "type": "split",
     "children": [
       {
-        "id": "658c1b82645a25d8",
+        "id": "fe8081fd14478599",
         "type": "tabs",
         "children": [
           {
-            "id": "3fb1ba464ea0b126",
+            "id": "c86adab91b61cd2d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "ad8465a31a081461",
+            "id": "9f001646c42a648b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "2f1546fee8fc9abe",
+            "id": "792d3288b0d61d91",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "e4fee8f348622401",
+    "id": "ba6f83a2e7e1c97d",
     "type": "split",
     "children": [
       {
-        "id": "e926641e1bc77446",
+        "id": "1609b53fa82bb3ec",
         "type": "tabs",
         "children": [
           {
-            "id": "048e5f81781e5b1a",
+            "id": "f21b3fea7f1078e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "2549ff0a778d5b18",
+            "id": "475442eb2082e856",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "9e8f3d0b83498e8e",
+            "id": "dae0ccd3c6cb48ec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "80c6a274df3a5a76",
+            "id": "2f0c79760907ce5e",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -138,9 +138,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27595b3c98c35092",
+  "active": "75129e6edbb3c939",
   "lastOpenFiles": [
+    "SQLNotes/03-crud2.md",
+    "SQLNotes/10-views-and-window-function.md",
+    "SQLNotes/09-schema-design.md",
+    "SQLNotes/01-intro-to-dbms-sql.md",
+    "SQLNotes/04-joins-2.md",
+    "SQLNotes/02-crud-operations.md",
+    "SQLNotes/08-schema-design1.md",
+    "SQLNotes/05-aggregate-subqueries.md",
+    "SQLNotes/06-indexing.md",
+    "SQLNotes/07-transactions.md",
+    "LLD/Patterns/practice-problems/README.md",
+    "LLD/Patterns/practice-problems/03-design-restaurant-mgmt-worksheet.md",
+    "LLD/Patterns/practice-problems/02-design-chess-worksheet.md",
     "LLD/Patterns/practice-problems/01-design-atm-worksheet.md",
-    "Welcome.md"
+    "LLD/Patterns/practice-problems",
+    "LLD/Patterns/10-observer-strategy.md",
+    "LLD/Patterns/09-decorator-facade.md",
+    "LLD/Patterns/08-adapter-flyweight.md",
+    "LLD/Patterns/07-facade-observer.md",
+    "LLD/Patterns/06-abstract-factory-adapter.md",
+    "LLD/Patterns/05-factory.md",
+    "LLD/Patterns/04-prototype-factory.md",
+    "LLD/Patterns/03-singleton-builder.md",
+    "LLD/Patterns/02-solid-02.md",
+    "LLD/Patterns/01-solid-01.md",
+    "LLD/Patterns",
+    "LLD/Practice questions/05-design-a-cache-hw.pdf",
+    "LLD/Practice questions/07-design-splitwise.md",
+    "LLD/Practice questions/06-design-book-my-show.md",
+    "LLD/Practice questions",
+    "SQLNotes",
+    "LLD"
   ]
 }
