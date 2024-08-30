@@ -35,3 +35,15 @@ This repository contains the following Markdown files:
 - [SQLNotes/09-schema-design.md](https://divyansh06.github.io/SQLNotes/09-schema-design.html)
 - [SQLNotes/10-views-and-window-function.md](https://divyansh06.github.io/SQLNotes/10-views-and-window-function.html)
 - [Welcome.md](https://divyansh06.github.io/Welcome.html)
+
+## How to Use This Repository
+
+Each file contains documentation or notes related to specific parts of the project. Click on the links above to navigate to the respective files.
+
+## Contribution Guidelines
+
+Feel free to contribute to the documentation by adding or updating the Markdown files. Make sure to follow the repository's contribution guidelines.
+
+---
+
+*Generated on: 8/30/2024*
