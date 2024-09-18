@@ -10,6 +10,7 @@ This repository contains the following Markdown files:
 - [7 Days Preparation.md](https://divyansh06.github.io/Bonus%20Resources/7%20Days%20Preparation.html)
 - [All Resources Download Links.md](https://divyansh06.github.io/Bonus%20Resources/All%20Resources%20Download%20Links.html)
 - [DSA Video Revision Links.md](https://divyansh06.github.io/Bonus%20Resources/DSA%20Video%20Revision%20Links.html)
+- [Graphql.md](https://divyansh06.github.io/Bonus%20Resources/Graphql.html)
 - [Practice Questions List.md](https://divyansh06.github.io/Bonus%20Resources/Practice%20Questions%20List.html)
 
 ***Oops***
@@ -64,4 +65,4 @@ This repository contains the following Markdown files:
 
 ---
 
-*Generated on: 8/30/2024*
+*Generated on: 9/18/2024*
